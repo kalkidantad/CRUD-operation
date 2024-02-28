@@ -1,0 +1,36 @@
+web tech/
+│
+└── employeeProject/
+    ├── manage.py
+    ├── employeeProject/
+    │   ├── __init__.py
+    │   ├── asgi.py
+    │   ├── settings/
+    │   │   ├── __init__.py
+    │   │   ├── base.py
+    │   │   ├── development.py
+    │   │   ├── production.py
+    │   │   └── testing.py
+    │   ├── urls.py
+    │   └── wsgi.py
+    │
+    └── register/
+        ├── migrations/
+        │   └── __init__.py
+        ├── static/
+        │   └── register/
+        │       ├── css/
+        │       └── js/
+        ├── templates/
+        │   └── register/
+        │       ├── base.html
+        │       └── employee_form.html
+        │       └── employee_list.html
+        ├── __init__.py
+        ├── admin.py
+        ├── apps.py
+        ├── models.py
+        ├── tests.py
+        ├── urls.py
+        └── views.py
+        
